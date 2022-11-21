@@ -19,11 +19,13 @@ function init(){
     }else{
         console.log("names exists");
     }
+    time++;
 }
 
 
 
 (function() {
+    console.log(time);
     if(time == 0){
         init();
     }

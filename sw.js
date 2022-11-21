@@ -12,8 +12,10 @@ let cache_name = 'mysite-v1'
 
 let urls_to_cache = [
  '/',
- '/js/script.js',
- "http://127.0.0.1:5500/?"
+ '/script.js',
+ "http://127.0.0.1:5504/?",
+ "http://127.0.0.1:5504/",
+
 ]
 
 self.addEventListener('install', (e) => {
