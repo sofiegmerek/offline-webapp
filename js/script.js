@@ -6,7 +6,7 @@
         console.log("No support for Local Storage")
 
     //prompt user for username and age
-    let username = prompt("Enter username:", "")
+   let username = prompt("Enter username:", "")
     let age = prompt("Enter age:", "")
 
     //add username and age to localstorage
